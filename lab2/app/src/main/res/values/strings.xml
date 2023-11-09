@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_1">Столиця Туреччини - Константинополь</string>
+    <string name="question_2">Тихий океан більший за Атлантичний</string>
+    <string name="question_3">Суецькій канал поєднує Червоне море\n з Індійським океаном</string>
+    <string name="question_4">Ріка Нил починається в Єгипті</string>
+    <string name="answer_1">Ні, cтолиця Туреччини - Анкара</string>
+    <string name="answer_2">Так, Тихий океан більший за Атлантичний</string>
+    <string name="answer_3">Ні, Суецькій канал поєднує Червоне море\n з Середземним</string>
+    <string name="answer_4">Ні, ріка Нил починається в Руанді</string>
+    <string name="button_true">Це правда</string>
+    <string name="button_false">Це брехня</string>
+    <string name="button_next">Наступний</string>
+    <string name="button_prev">Попередній</string>
+    <string name="toast_true">Ви відповіли правильно! </string>
+    <string name="toast_false">Ви відповіли неправильно!</string>
+    <string name="counter">Рахунок:</string>
+    <string name="no_more_questions">Питання закінчилися :c</string>
+</resources>
