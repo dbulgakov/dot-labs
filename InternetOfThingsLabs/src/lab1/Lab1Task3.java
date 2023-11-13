@@ -9,6 +9,10 @@ public class Lab1Task3 { // Task option 3 Bulhakov
         int kol = sc.nextInt();
         sc.nextLine();
 
+        if (kol <= 0) {
+            return;
+        }
+
         Person[] people = new Person[kol];
         System.out.println("Введите информацию о каждом человеке: ");
 
@@ -92,13 +96,13 @@ public class Lab1Task3 { // Task option 3 Bulhakov
 
         // Find by surname, edit and print
 
-        sc.nextLine();
-        System.out.println("Введите название искомого человека => ");
+
+        System.out.println("Введите фамилию искомого человека => ");
         String surnameQuery = sc.nextLine();
         int foundPersonId = -1;
 
         for (int i = 0; i < people.length; i++) {
-            if (surnameQuery.equalsIgnoreCase(people[i].name)) {
+            if (surnameQuery.equalsIgnoreCase(people[i].surname)) {
                 foundPersonId = i;
             }
         }

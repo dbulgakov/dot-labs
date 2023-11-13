@@ -10,6 +10,11 @@ public class Lab1Task4 {
         sc.nextLine();
 
 
+        if (peopleCount <= 0) {
+            return;
+        }
+
+
         Person[] people = new Person[peopleCount];
         for (int i = 0; i < peopleCount; i++) {
             people[i] = readPersonFromConsole(sc);
@@ -28,8 +33,7 @@ public class Lab1Task4 {
         printPeople(people);
 
         // Find by surname, edit and print
-        sc.nextLine();
-        System.out.println("Введите название искомого человека => ");
+        System.out.println("Введите фамилию искомого человека => ");
         String surnameQuery = sc.nextLine();
         Person foundPerson = findPersonBySurname(people, surnameQuery);
 
@@ -115,7 +119,7 @@ public class Lab1Task4 {
         int foundPersonId = -1;
 
         for (int i = 0; i < people.length; i++) {
-            if (surnameQuery.equalsIgnoreCase(people[i].name)) {
+            if (surnameQuery.equalsIgnoreCase(people[i].surname)) {
                 foundPersonId = i;
             }
         }
