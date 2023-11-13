@@ -63,10 +63,12 @@ public class Lab1Task2 {
             System.out.printf("%-10s %-10s %-10s %-10s\n", s.fam, s.im, s.otch, s.doljnost);
             System.out.println("Дети: ");
 
-            for (Rebenok r : s.reb) {
-                System.out.printf("%-10s %-10s\n", r.imaR, r.vozrastR);
+            if (s.reb != null) {
+                for (Rebenok r : s.reb) {
+                    System.out.printf("%-10s %-10s\n", r.imaR, r.vozrastR);
+                }
             }
-
+            
             System.out.println("\n");
         }
     }
