@@ -52,9 +52,9 @@ public class StudentsGroup {
 
     private static ArrayList<StudentsGroup> groups = new ArrayList<StudentsGroup>(
             Arrays.asList(
-                    new StudentsGroup("ІПЗ19-1", "Інженерії програмного забезпечення", 0, true, false),
-                    new StudentsGroup("ІПЗ19-2", "Інженерії програмного забезпечення", 0, true, false),
-                    new StudentsGroup("К19-1", "Комп'ютерних наук", 1, false, true)
+                    new StudentsGroup("К21-1", "Комп'ютерних науки", 0, true, false),
+                    new StudentsGroup("К21-2", "Комп'ютерних науки", 0, true, false),
+                    new StudentsGroup("К21-3", "Комп'ютерних науки", 1, false, true)
             )
     );
 

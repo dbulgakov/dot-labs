@@ -22,12 +22,12 @@ public class Student {
 
     private final static ArrayList<Student> students = new ArrayList<Student>(
     Arrays.asList(
-            new Student("Островський Вячеслав", "ІПЗ19-1"),
-            new Student("Ванжа Микита", "ІПЗ19-1"),
-            new Student("Орел Вадим", "ІПЗ19-1"),
-            new Student("Миргородський Данило", "ІПЗ19-1"),
-            new Student("Хоменко Микиьа", "ІПЗ19-2"),
-            new Student("Полеводін Евген", "ІПЗ19-2")
+            new Student("Булгаков Дмитро", "К21-3"),
+            new Student("Герасименко Антон", "К21-1"),
+            new Student("Улянович Михайло", "К21-1"),
+            new Student("Урбанович Ірина",  "К21-3"),
+            new Student("Хоменко Назар", "К21-2"),
+            new Student("Волошин Дмитро", "К21-2")
             )
     );
 
